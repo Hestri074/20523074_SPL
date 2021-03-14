@@ -11,11 +11,11 @@ showEqn(A,b)
 ```
 
 ```{r}
-echelon(A,b, verbose=TRUE, fractions=TRUE)
+Solve(A,b)
 ```
 
 ```{r}
-Solve(A,b)
+echelon(A,b, verbose=TRUE, fractions=TRUE)
 ```
 
 ```{r}
@@ -25,11 +25,11 @@ showEqn(A, b)
 ```
 
 ```{r}
-echelon(A,b, verbose=TRUE, fractions=TRUE)
+Solve(A,b)
 ```
 
 ```{r}
-Solve(A,b)
+echelon(A,b, verbose=TRUE, fractions=TRUE)
 ```
 
 ```{r}
@@ -39,10 +39,10 @@ showEqn(A, b)
 ```
 
 ```{r}
-echelon(A,b, verbose=TRUE, fractions=TRUE)
+Solve(A,b)
 ```
 
 ```{r}
-Solve(A,b)
+echelon(A,b, verbose=TRUE, fractions=TRUE)
 ```
 
